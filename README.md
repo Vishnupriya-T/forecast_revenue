@@ -27,3 +27,12 @@ Following is the pipeline we have created to apply encoding and scaling to the a
 on its characteristics and values. We did frequency encoding (which has more than 50 categories
 in order to get rid of the curse of dimensionality) and one hot encoding for the categorical
 columns.
+
+Fig (a): Pipeline Transformer 
+For features having outliers, robust scaling was applied and for other features, standard scaler has been used after studying them. 
+3. Data Modeling 
+There are many different statistical models that we can use to predict revenue when prices are dynamic. Ultimately, the best model for predicting revenue when prices are dynamic will depend on the characteristics of the data and the specific goals of the prediction. It is necessary to try out various models and compare their performance in order to find the one that works best. Hence, we have applied the following regression models which we felt suitable for this. 
+- Linear Regression (Linear, Lasso and Ridge) 
+- Decision tree models (Decision Tree, Random Forest and XGBoost regressors) - SVM Regression 
+- KNN Regression 
+We have obtained above results in which tree models such as Random Forest and XGBoost regressors worked better among all. 
