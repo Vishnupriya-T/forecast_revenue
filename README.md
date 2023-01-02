@@ -1,4 +1,4 @@
-# forecast_revenue
+# Revenue Forecast
 Revenue forecast as the foundation for dynamic pricing
 
 Business Problem:
